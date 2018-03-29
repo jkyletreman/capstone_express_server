@@ -15,7 +15,7 @@ app.get('/test', (req, res) => {
 
 app.use('/', (req, res) => {
   res.sendStatus(404);
-})
+});
 
 app.listen(PORT, () => {
   console.log('Ready to serve...');
