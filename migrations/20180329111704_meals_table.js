@@ -1,12 +1,13 @@
 
 exports.up = function(knex, Promise) {
   return knex.schema.createTable('meals', (table) => {
-    table.increments('id');
-    table.string("Name");
-    table.string("Time");
-    table.enu('Tags', ['Spring', 'Summer', 'Fall', 'Winter', 'Chicken', 'Beef', 'Fish', 'Pork', 'Vegetarian']);
-    table.enu('Difficulty', ['Easy', 'Medium', 'Hard']);
-    table.text('Instructions');
+    table.increments();
+    table.string("name");
+    table.string("time");
+    table.enu('tags', ['Spring', 'Summer', 'Fall', 'Winter', 'Chicken', 'Beef', 'Fish', 'Pork', 'Vegetarian']);
+    table.enu('difficulty', ['Easy', 'Medium', 'Hard']);
+    table.text('instructions');
+    table.text('summary');
     table.string('img');
     table.timestamps(true, true);
   })
