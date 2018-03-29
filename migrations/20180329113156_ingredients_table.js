@@ -1,8 +1,9 @@
 
 exports.up = function(knex, Promise) {
   return knex.schema.createTable('ingredients', (table) => {
-    table.increments('ingredients_id');
-    table.foreign('ingredient').references('meal_id').inTable('meals');
+    table.increments('id');
+    table.foreign('meal_id').references('id').inTable('meals');
+    table.string('name');
     table.integer('amount');
     table.integer('unit');
     table.timestamps();
