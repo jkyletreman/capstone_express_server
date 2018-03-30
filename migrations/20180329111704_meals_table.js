@@ -4,7 +4,7 @@ exports.up = function(knex, Promise) {
     table.increments();
     table.string("name");
     table.string("time");
-    table.enu('tags', ['Spring', 'Summer', 'Fall', 'Winter', 'Chicken', 'Beef', 'Fish', 'Pork', 'Vegetarian']);
+    table.text('tags');
     table.enu('difficulty', ['Easy', 'Medium', 'Hard']);
     table.text('instructions');
     table.text('summary');
