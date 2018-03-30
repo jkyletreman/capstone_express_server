@@ -5,12 +5,20 @@ const bodyParser = require('body-parser');
 const app = express();
 const PORT = process.env.PORT || 5050;
 
+const {
+  testQuery
+} = require('./models/queries.js');
+
 app.use(morgan('tiny'));
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
 
-app.get('/test', (req, res) => {
-  res.send('HK-47 Protocols enacted');
+app.get('/ingredients', (req, res) => {
+  testQuery(req).then(ingredients => {
+    res.format({
+      "application/json":() => res.json(ingredients)
+    });
+  });
 });
 
 app.use('/', (req, res) => {
