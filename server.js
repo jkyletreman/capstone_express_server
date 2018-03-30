@@ -14,7 +14,7 @@ app.use(morgan('tiny'));
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
 
-app.get('/smallCards', (req, res) => {
+app.get('/api/smallCards', (req, res) => {
   getSmallCardInfo(req).then(cards => {
     res.format({
       "application/json":() => res.json(cards)

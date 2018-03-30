@@ -7,7 +7,7 @@ function testQuery() {
 
 function getSmallCardInfo() {
   return knex('meals')
-    .select('name', 'summary', 'img');
+    .select('id', 'name', 'summary', 'img');
 };
 
 module.exports = {
