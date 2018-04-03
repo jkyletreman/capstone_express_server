@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 5050;
 
 const {
-  testQuery,
+  getIngredientsfromMeals,
   getSmallCardInfo
 } = require('./models/queries.js');
 
@@ -22,12 +22,10 @@ app.get('/api/smallCards', (req, res) => {
   })
 })
 
-app.get('/test', (req, res) => {
-  testQuery(req).then(ingredients => {
-    res.format({
-      "application/json":() => res.json(ingredients)
-    });
-  });
+app.get('/api/ingredients', (req, res) => {
+  getIngredientsfromMeals(req).then(ingredients => {
+    res.send(ingredients)
+  })
 });
 
 app.use('/', (req, res) => {

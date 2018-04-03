@@ -1,16 +1,17 @@
 const knex = require('../db');
 
-function testQuery() {
-  return knex('meals')
-    .select('name', 'summary', 'img')
-};
-
 function getSmallCardInfo() {
   return knex('meals')
     .select('id', 'name', 'summary', 'img');
 };
 
+function getIngredientsfromMeals() {
+  return knex('ingredients')
+    .where('id', 1)
+    .select('name', 'amount', 'unit')
+}
+
 module.exports = {
-  testQuery,
+  getIngredientsfromMeals,
   getSmallCardInfo
 };
