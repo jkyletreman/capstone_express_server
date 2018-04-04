@@ -5,9 +5,14 @@ function getSmallCardInfo() {
     .select('id', 'name', 'summary', 'img');
 };
 
-function getIngredientsfromMeals() {
+function getIngredientsfromMeals(req) {
+  const ids = req.query
+                 .split(' ')
+                 .map(id => parseInt(id, 10))
+                 .join(' ')
+
   return knex('ingredients')
-    .where('id', 1)
+    .whereIn('id', ids)
     .select('name', 'amount', 'unit')
 }
 
