@@ -6,10 +6,8 @@ function getSmallCardInfo() {
 };
 
 function getIngredientsfromMeals(req) {
-  const ids = req.query
-                 .split(' ')
-                 .map(id => parseInt(id, 10))
-                 .join(' ')
+  const ids = req.query.ids.split(',')
+                           .map(id => parseInt(id, 10))
 
   return knex('ingredients')
     .whereIn('id', ids)
