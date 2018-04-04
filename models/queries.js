@@ -1,16 +1,20 @@
 const knex = require('../db');
 
-function testQuery() {
-  return knex('meals')
-    .select('name', 'summary', 'img')
-};
-
 function getSmallCardInfo() {
   return knex('meals')
     .select('id', 'name', 'summary', 'img');
 };
 
+function getIngredientsfromMeals(req) {
+  const ids = req.query.ids.split(',')
+                           .map(id => parseInt(id, 10))
+
+  return knex('ingredients')
+    .whereIn('id', ids)
+    .select('id', 'name', 'amount', 'unit')
+}
+
 module.exports = {
-  testQuery,
+  getIngredientsfromMeals,
   getSmallCardInfo
 };
