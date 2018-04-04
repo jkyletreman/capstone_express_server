@@ -11,7 +11,7 @@ function getIngredientsfromMeals(req) {
 
   return knex('ingredients')
     .whereIn('id', ids)
-    .select('name', 'amount', 'unit')
+    .select('id', 'name', 'amount', 'unit')
 }
 
 module.exports = {
