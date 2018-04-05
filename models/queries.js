@@ -10,7 +10,7 @@ function getIngredientsfromMeals(req) {
                            .map(id => parseInt(id, 10))
 
   return knex('ingredients')
-    .whereIn('id', ids)
+    .whereIn('ingredient_id', ids)
     .select('id', 'name', 'amount', 'unit')
 }
 
