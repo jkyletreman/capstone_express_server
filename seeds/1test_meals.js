@@ -55,13 +55,13 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 6,
-          name: "Buddhas Delight",
-          time: "1.5 hours",
-          tags: "Summer, Vegetarian",
-          difficulty: "Medium",
+          name: "Easy Brownies",
+          time: "1 hour",
+          tags: "Desert",
+          difficulty: "Easy",
           instructions: "These are instructions",
           summary: "This is a summary",
-          img: "https://upload.wikimedia.org/wikipedia/commons/c/ce/Boeddha%27s_Delight.jpg"
+          img: "https://www.countrysidecravings.com/wp-content/uploads/2016/09/Homemade-Chewy-Brownies-3.jpg"
         },
         {
           id: 7,
@@ -175,7 +175,7 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 18,
-          name: "Turkey Meatballs and Mashed Potatoes",
+          name: "Turkey Meatballs and Mashed Potatoes with Mushroom Gravy",
           time: "3.5 hours",
           tags: "Winter, Beef",
           difficulty: "Hard",
