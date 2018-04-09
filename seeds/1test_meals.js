@@ -12,7 +12,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Easy",
           instructions: "These are instructions",
           summary: "Simple buffalo chicken in a castiron skillet.",
-          img: "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i3Yp1mXpDIMA/v2/-1x-1.jpg"
+          img: "http://www.emilybites.com/wp-content/uploads/2012/07/Slow-Cooker-Buffalo-Chicken-10b.jpg"
         },
         { id: 2,
           name: "Jerk Chicken",
@@ -21,7 +21,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Easy",
           instructions: "These are instructions",
           summary: "Simple jerk chicken in the oven.",
-          img: "https://cdn3.f-cdn.com/contestentries/1751/445921/29924-9381-13151323684e6353d06b7a7/rasta%20chicken%20by%20marattacks%20colored%20500_thumb900.jpg"
+          img: "https://imagesvc.timeincapp.com/v3/mm/image?url=http%3A%2F%2Fcdn-image.foodandwine.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2F1474316393%2Fjerk-chicken-XL-RECIPE2016.jpg%3Fitok%3D2pyQlqYz&w=700&q=85"
         },
         {
           id: 3,
@@ -31,7 +31,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Easy",
           instructions: "These are instructions",
           summary: "This is a summary",
-          img: "https://pinchofyum.com/wp-content/uploads/Honey-Ginger-Tofu-Veggie-Stir-Fry-53-Square.jpg"
+          img: "https://www.drweil.com/wp-content/uploads/2016/12/diet-nutrition_recipes_vegetable-and-tofu-stir-fry_2721x1806_000019113552-1024x768.jpg"
         },
         {
           id: 4,
@@ -51,7 +51,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Medium",
           instructions: "These are instructions",
           summary: "This is a summary",
-          img: "https://www.aheadofthyme.com/wp-content/uploads/2016/08/easy-fish-tacos-with-lime-crema-6.jpg"
+          img: "http://momsneedtoknow.com/wp-content/uploads/2016/03/Blackened-Fish-Tacos-with-Cilantro-Slaw-myf.jpg"
         },
         {
           id: 6,
@@ -71,7 +71,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Easy",
           instructions: "These are instructions",
           summary: "This is a summary",
-          img: "https://unsophisticook.com/wp-content/uploads/2017/10/Fried-Cabbage-and-Noodles.jpg"
+          img: "https://1.bp.blogspot.com/-yQJmt1CD3w0/WfCvlWbR1hI/AAAAAAAABag/S52oXscHiws9zcuQC-ZlZkEzkpCzuFkkQCLcBGAs/s1600/CabbageNoodles08.JPG"
         },
         {
           id: 8,
@@ -81,7 +81,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Easy",
           instructions: "These are instructions",
           summary: "This is a summary",
-          img: "http://laurengreutman.com/wp-content/uploads/2016/06/Black-Beans-and-Rice-FB-1-1024x536.jpg"
+          img: "https://www.cleaneatingmag.com/.image/t_share/MTQ0NzQxNjg1MDI1OTczMjk0/cuban-style-rice-and-beans-with-turkey.jpg"
         },
         {
           id: 9,
@@ -101,7 +101,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Medium",
           instructions: "These are instructions",
           summary: "This is a summary",
-          img: "https://prods3.imgix.net/images/articles/2016_03/Featured-Chicken-Parm-Cheese-Parmesan-Mozzarella-Dish-Recipe.jpg"
+          img: "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/12/14/1/EI1F02_Chicken-Parmesan_s4x3.jpg.rend.hgtvcom.616.462.suffix/1390453752762.jpeg"
         },
         {
           id: 11,
@@ -111,7 +111,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Easy",
           instructions: "These are instructions",
           summary: "This is a summary",
-          img: "http://www.valleyfresh.com/img/recipes/updated/appetite_caesarWrap.jpg"
+          img: "https://www.culinaryhill.com/wp-content/uploads/2016/04/Grilled-Chicken-Caesar-Wrap-Culinary-Hill-11.jpg"
         },
         {
           id: 12,
@@ -151,7 +151,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Hard",
           instructions: "These are instructions",
           summary: "This is a summary",
-          img: "https://www.simplyrecipes.com/wp-content/uploads/2017/02/2017-02-27-ChickenTikkaMasala-16.jpg"
+          img: "https://www.onceuponachef.com/images/2017/06/chicken-tikka-masala-1.jpg"
         },
         {
           id: 16,
@@ -181,7 +181,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Hard",
           instructions: "These are instructions",
           summary: "This is a summary",
-          img: "http://i.recipes-plus.com/styles/fp_social/public/recipe/2015/27/turkey-cranberry-rissoles-cheesy-mash.jpg"
+          img: "http://1.bp.blogspot.com/-ir_zL5vh3EQ/VhZYewQj5ZI/AAAAAAAAHbw/6zTaeAlsTPw/s1600/Barbs%2BMeatballs.jpg"
         },
         {
           id: 19,
