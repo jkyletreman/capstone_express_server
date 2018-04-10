@@ -21,7 +21,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Easy",
           instructions: "These are instructions",
           summary: "Simple jerk chicken in the oven.",
-          img: "https://imagesvc.timeincapp.com/v3/mm/image?url=http%3A%2F%2Fcdn-image.foodandwine.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2F1474316393%2Fjerk-chicken-XL-RECIPE2016.jpg%3Fitok%3D2pyQlqYz&w=700&q=85"
+          img: "https://www.seriouseats.com/recipes/images/2013/07/20130715-jerk-chicken-final-food-lab-38.jpg"
         },
         {
           id: 3,
@@ -61,7 +61,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Easy",
           instructions: "These are instructions.",
           summary: "Quick and easy sugar rush.",
-          img: "https://www.countrysidecravings.com/wp-content/uploads/2016/09/Homemade-Chewy-Brownies-3.jpg"
+          img: "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/10/25/1/CC_Alton-Brown-Cocoa-Brownies_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371600408087.jpeg"
         },
         {
           id: 7,
@@ -141,7 +141,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Hard",
           instructions: "These are instructions",
           summary: "Cause its really this easy!",
-          img: "https://img.grouponcdn.com/deal/hfefAup1zQWBE2K8sWURgS27xax/hf-846x508/v1/c700x420.jpg"
+          img: "https://img.grouponcdn.com/deal/fmPws6o2uTweCftZu7yj/p4-2048x1229/v1/c700x420.jpg"
         },
         {
           id: 15,
