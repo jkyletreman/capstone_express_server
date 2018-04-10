@@ -181,7 +181,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Hard",
           instructions: "These are instructions",
           summary: "Complex but so worth it.",
-          img: "http://1.bp.blogspot.com/-ir_zL5vh3EQ/VhZYewQj5ZI/AAAAAAAAHbw/6zTaeAlsTPw/s1600/Barbs%2BMeatballs.jpg"
+          img: "https://www.smalltownwoman.com/wp-content/uploads/2016/10/Turkey-Meatballs-in-Easy-Cream-Sauce-10.jpg"
         },
         {
           id: 19,
@@ -201,7 +201,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Easy",
           instructions: "These are instructions",
           summary: "If you don't eat meat, this is the best breakfast.",
-          img: "https://www.justataste.com/wp-content/uploads/2014/07/secret-ingredient-smoothies-1.jpg"
+          img: "http://img1.cookinglight.timeinc.net/sites/default/files/styles/4_3_horizontal_-_1200x900/public/image/2017/05/main/pbj-smoothie-1707p35.jpg?itok=sGsix9g1"
         }
       ]);
     });
