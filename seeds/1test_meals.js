@@ -11,8 +11,8 @@ exports.seed = function(knex, Promise) {
           tags: "Summer, Chicken",
           difficulty: "Easy",
           instructions: "These are instructions",
-          summary: "Simple buffalo chicken in a castiron skillet.",
-          img: "http://www.emilybites.com/wp-content/uploads/2012/07/Slow-Cooker-Buffalo-Chicken-10b.jpg"
+          summary: "Simple buffalo chicken sandwichs.",
+          img: "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/1/7/0/SBS_Buffalo-Chicken-Sliders_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541350870.jpeg"
         },
         { id: 2,
           name: "Jerk Chicken",
@@ -30,7 +30,7 @@ exports.seed = function(knex, Promise) {
           tags: "Summer, Vegetarian",
           difficulty: "Easy",
           instructions: "These are instructions",
-          summary: "This is a summary",
+          summary: "A healthy stirfry with mixed vegtables and tofu.",
           img: "https://www.drweil.com/wp-content/uploads/2016/12/diet-nutrition_recipes_vegetable-and-tofu-stir-fry_2721x1806_000019113552-1024x768.jpg"
         },
         {
@@ -39,8 +39,8 @@ exports.seed = function(knex, Promise) {
           time: "2-3 hours",
           tags: "Fall",
           difficulty: "Medium",
-          instructions: "These are instructions",
-          summary: "This is a summary",
+          instructions: "These are instructions.",
+          summary: "The quintessential italian dish.",
           img: "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2004/4/13/0/tm1d37_spaghetti_meatballs.jpg.rend.hgtvcom.616.462.suffix/1485880375188.jpeg"
         },
         {
@@ -49,8 +49,8 @@ exports.seed = function(knex, Promise) {
           time: "45 minutes",
           tags: "Spring, Fish",
           difficulty: "Medium",
-          instructions: "These are instructions",
-          summary: "This is a summary",
+          instructions: "These are instructions.",
+          summary: "Baha style fish tacos.",
           img: "http://momsneedtoknow.com/wp-content/uploads/2016/03/Blackened-Fish-Tacos-with-Cilantro-Slaw-myf.jpg"
         },
         {
@@ -59,8 +59,8 @@ exports.seed = function(knex, Promise) {
           time: "1 hour",
           tags: "Desert",
           difficulty: "Easy",
-          instructions: "These are instructions",
-          summary: "This is a summary",
+          instructions: "These are instructions.",
+          summary: "Quick and easy sugar rush.",
           img: "https://www.countrysidecravings.com/wp-content/uploads/2016/09/Homemade-Chewy-Brownies-3.jpg"
         },
         {
@@ -69,8 +69,8 @@ exports.seed = function(knex, Promise) {
           time: "1 hour",
           tags: "Winter, Vegetarian",
           difficulty: "Easy",
-          instructions: "These are instructions",
-          summary: "This is a summary",
+          instructions: "These are instructions.",
+          summary: "If you're in a babushka type of mood.",
           img: "https://1.bp.blogspot.com/-yQJmt1CD3w0/WfCvlWbR1hI/AAAAAAAABag/S52oXscHiws9zcuQC-ZlZkEzkpCzuFkkQCLcBGAs/s1600/CabbageNoodles08.JPG"
         },
         {
@@ -79,8 +79,8 @@ exports.seed = function(knex, Promise) {
           time: "1 hour",
           tags: "Summer, Vegetarian",
           difficulty: "Easy",
-          instructions: "These are instructions",
-          summary: "This is a summary",
+          instructions: "These are instructions.",
+          summary: "Classic rice and beans, nuff said.",
           img: "https://www.cleaneatingmag.com/.image/t_share/MTQ0NzQxNjg1MDI1OTczMjk0/cuban-style-rice-and-beans-with-turkey.jpg"
         },
         {
@@ -89,8 +89,8 @@ exports.seed = function(knex, Promise) {
           time: "20 minutes",
           tags: "Winter, Vegetarian",
           difficulty: "Easy",
-          instructions: "These are instructions",
-          summary: "This is a summary",
+          instructions: "These are instructions.",
+          summary: "Probably the most hipster thing on here.",
           img: "https://www.seriouseats.com/recipes/images/2013/01/20130108-kale-caesar-salad-11.jpg"
         },
         {
@@ -99,8 +99,8 @@ exports.seed = function(knex, Promise) {
           time: "2 hours",
           tags: "Fall, Chicken",
           difficulty: "Medium",
-          instructions: "These are instructions",
-          summary: "This is a summary",
+          instructions: "These are instructions.",
+          summary: "Who said sphegetti was quintessential.",
           img: "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/12/14/1/EI1F02_Chicken-Parmesan_s4x3.jpg.rend.hgtvcom.616.462.suffix/1390453752762.jpeg"
         },
         {
@@ -109,8 +109,8 @@ exports.seed = function(knex, Promise) {
           time: "1 hour",
           tags: "Spring, Chicken",
           difficulty: "Easy",
-          instructions: "These are instructions",
-          summary: "This is a summary",
+          instructions: "These are instructions.",
+          summary: "Because sometimes basic is best.",
           img: "https://www.culinaryhill.com/wp-content/uploads/2016/04/Grilled-Chicken-Caesar-Wrap-Culinary-Hill-11.jpg"
         },
         {
@@ -119,8 +119,8 @@ exports.seed = function(knex, Promise) {
           time: "1 hour",
           tags: "Winter, Vegetarian",
           difficulty: "Easy",
-          instructions: "These are instructions",
-          summary: "This is a summary",
+          instructions: "We like buffalo sauce ok?",
+          summary: "Simple, hot, awesome.",
           img: "https://d3cizcpymoenau.cloudfront.net/images/20598/SFS_carrot_ginger_soup-10.jpg"
         },
         {
@@ -129,8 +129,8 @@ exports.seed = function(knex, Promise) {
           time: "2 hours",
           tags: "Summer, Chicken",
           difficulty: "Medium",
-          instructions: "These are instructions",
-          summary: "This is a summary",
+          instructions: "We like buffalo sauce ok?",
+          summary: "We like buffalo sauce ok?",
           img: "https://cdn.cpnscdn.com/static.coupons.com/ext/kitchme/images/recipes/600x400/the-best-buffalo-wing-sauce_43411.jpg"
         },
         {
@@ -140,7 +140,7 @@ exports.seed = function(knex, Promise) {
           tags: "Summer, Fish",
           difficulty: "Hard",
           instructions: "These are instructions",
-          summary: "This is a summary",
+          summary: "Cause its really this easy!",
           img: "https://img.grouponcdn.com/deal/hfefAup1zQWBE2K8sWURgS27xax/hf-846x508/v1/c700x420.jpg"
         },
         {
@@ -150,7 +150,7 @@ exports.seed = function(knex, Promise) {
           tags: "Summer, Chicken",
           difficulty: "Hard",
           instructions: "These are instructions",
-          summary: "This is a summary",
+          summary: "The General Tso's of Indian food.",
           img: "https://www.onceuponachef.com/images/2017/06/chicken-tikka-masala-1.jpg"
         },
         {
@@ -160,7 +160,7 @@ exports.seed = function(knex, Promise) {
           tags: "Pork",
           difficulty: "Medium",
           instructions: "These are instructions",
-          summary: "This is a summary",
+          summary: "Yes, it's as good as it sounds and yes, it has bacon.",
           img: "http://4.bp.blogspot.com/-wYlz2t2PkZo/TsmQVMYDM6I/AAAAAAAAAb0/-Jp_oNkqRu4/s1600/baked+potato+soup.jpg"
         },
         {
@@ -170,7 +170,7 @@ exports.seed = function(knex, Promise) {
           tags: "Winter, Vegetarian",
           difficulty: "Medium",
           instructions: "These are instructions",
-          summary: "This is a summary",
+          summary: "Potatoes, cooked twice served once.",
           img: "https://leitesculinaria.com/wp-content/uploads/fly-images/79395/twice-baked-potatoes-cheddar-400x400-c.jpg"
         },
         {
@@ -180,7 +180,7 @@ exports.seed = function(knex, Promise) {
           tags: "Winter, Beef",
           difficulty: "Hard",
           instructions: "These are instructions",
-          summary: "This is a summary",
+          summary: "Complex but so worth it.",
           img: "http://1.bp.blogspot.com/-ir_zL5vh3EQ/VhZYewQj5ZI/AAAAAAAAHbw/6zTaeAlsTPw/s1600/Barbs%2BMeatballs.jpg"
         },
         {
@@ -190,7 +190,7 @@ exports.seed = function(knex, Promise) {
           tags: "Pork",
           difficulty: "Easy",
           instructions: "These are instructions",
-          summary: "This is a summary",
+          summary: "The best breakfast in America, if you eat meat.",
           img: "https://uz71pyzpz0-flywheel.netdna-ssl.com/wp-content/uploads/2018/01/sheet-pan-bacon-eggs-3a-700x601.jpg"
         },
         {
@@ -200,7 +200,7 @@ exports.seed = function(knex, Promise) {
           tags: "Spring, Vegetarian",
           difficulty: "Easy",
           instructions: "These are instructions",
-          summary: "This is a summary",
+          summary: "If you don't eat meat, this is the best breakfast.",
           img: "https://www.justataste.com/wp-content/uploads/2014/07/secret-ingredient-smoothies-1.jpg"
         }
       ]);
