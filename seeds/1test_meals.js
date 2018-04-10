@@ -160,7 +160,7 @@ exports.seed = function(knex, Promise) {
           tags: "Pork",
           difficulty: "Medium",
           instructions: "These are instructions",
-          summary: "Yes, it's as good as it sounds and yes, it has bacon.",
+          summary: "Yes, it has bacon.",
           img: "http://4.bp.blogspot.com/-wYlz2t2PkZo/TsmQVMYDM6I/AAAAAAAAAb0/-Jp_oNkqRu4/s1600/baked+potato+soup.jpg"
         },
         {
@@ -190,7 +190,7 @@ exports.seed = function(knex, Promise) {
           tags: "Pork",
           difficulty: "Easy",
           instructions: "These are instructions",
-          summary: "The best breakfast in America, if you eat meat.",
+          summary: "The best breakfast... if you eat meat.",
           img: "https://uz71pyzpz0-flywheel.netdna-ssl.com/wp-content/uploads/2018/01/sheet-pan-bacon-eggs-3a-700x601.jpg"
         },
         {
@@ -200,7 +200,7 @@ exports.seed = function(knex, Promise) {
           tags: "Spring, Vegetarian",
           difficulty: "Easy",
           instructions: "These are instructions",
-          summary: "If you don't eat meat, this is the best breakfast.",
+          summary: "When fruit just wont cut it.",
           img: "http://img1.cookinglight.timeinc.net/sites/default/files/styles/4_3_horizontal_-_1200x900/public/image/2017/05/main/pbj-smoothie-1707p35.jpg?itok=sGsix9g1"
         }
       ]);
