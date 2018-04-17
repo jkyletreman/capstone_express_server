@@ -21,7 +21,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Easy",
           instructions: "These are instructions",
           summary: "Simple jerk chicken in the oven.",
-          img: "https://imagesvc.timeincapp.com/v3/mm/image?url=http%3A%2F%2Fcdn-image.foodandwine.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2F1474316393%2Fjerk-chicken-XL-RECIPE2016.jpg%3Fitok%3D2pyQlqYz&w=700&q=85"
+          img: "https://www.seriouseats.com/recipes/images/2013/07/20130715-jerk-chicken-final-food-lab-38.jpg"
         },
         {
           id: 3,
@@ -61,7 +61,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Easy",
           instructions: "These are instructions.",
           summary: "Quick and easy sugar rush.",
-          img: "https://www.countrysidecravings.com/wp-content/uploads/2016/09/Homemade-Chewy-Brownies-3.jpg"
+          img: "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/10/25/1/CC_Alton-Brown-Cocoa-Brownies_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371600408087.jpeg"
         },
         {
           id: 7,
@@ -141,7 +141,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Hard",
           instructions: "These are instructions",
           summary: "Cause its really this easy!",
-          img: "https://img.grouponcdn.com/deal/hfefAup1zQWBE2K8sWURgS27xax/hf-846x508/v1/c700x420.jpg"
+          img: "https://img.grouponcdn.com/deal/fmPws6o2uTweCftZu7yj/p4-2048x1229/v1/c700x420.jpg"
         },
         {
           id: 15,
@@ -160,7 +160,7 @@ exports.seed = function(knex, Promise) {
           tags: "Pork",
           difficulty: "Medium",
           instructions: "These are instructions",
-          summary: "Yes, it's as good as it sounds and yes, it has bacon.",
+          summary: "Yes, it has bacon.",
           img: "http://4.bp.blogspot.com/-wYlz2t2PkZo/TsmQVMYDM6I/AAAAAAAAAb0/-Jp_oNkqRu4/s1600/baked+potato+soup.jpg"
         },
         {
@@ -181,7 +181,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Hard",
           instructions: "These are instructions",
           summary: "Complex but so worth it.",
-          img: "http://1.bp.blogspot.com/-ir_zL5vh3EQ/VhZYewQj5ZI/AAAAAAAAHbw/6zTaeAlsTPw/s1600/Barbs%2BMeatballs.jpg"
+          img: "https://www.smalltownwoman.com/wp-content/uploads/2016/10/Turkey-Meatballs-in-Easy-Cream-Sauce-10.jpg"
         },
         {
           id: 19,
@@ -190,7 +190,7 @@ exports.seed = function(knex, Promise) {
           tags: "Pork",
           difficulty: "Easy",
           instructions: "These are instructions",
-          summary: "The best breakfast in America, if you eat meat.",
+          summary: "The best breakfast... if you eat meat.",
           img: "https://uz71pyzpz0-flywheel.netdna-ssl.com/wp-content/uploads/2018/01/sheet-pan-bacon-eggs-3a-700x601.jpg"
         },
         {
@@ -200,8 +200,18 @@ exports.seed = function(knex, Promise) {
           tags: "Spring, Vegetarian",
           difficulty: "Easy",
           instructions: "These are instructions",
-          summary: "If you don't eat meat, this is the best breakfast.",
-          img: "https://www.justataste.com/wp-content/uploads/2014/07/secret-ingredient-smoothies-1.jpg"
+          summary: "When fruit just wont cut it.",
+          img: "http://img1.cookinglight.timeinc.net/sites/default/files/styles/4_3_horizontal_-_1200x900/public/image/2017/05/main/pbj-smoothie-1707p35.jpg?itok=sGsix9g1"
+        },
+        {
+          id: 21,
+          name: "Whole Roasted Chicken",
+          time: "1 hour",
+          tags: "Chicken",
+          difficulty: "Easy",
+          instructions:"These are instructions",
+          summary: "Sometimes you need the whole chicken.",
+          img: "https://www.simplyrecipes.com/wp-content/uploads/2007/01/roast-chicken-carrots-sally-horiz-a-1800.jpg"
         }
       ]);
     });

@@ -1,7 +1,1 @@
-### Workflow
-
-- Add express
-- Basic express service
-- Add knex pg & database connection
-- Add dotenv
-- Add meals and ingredients tables
+This is a API for the app FeedME: https://github.com/jkyletreman/meal_planner_react 

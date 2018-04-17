@@ -79,7 +79,9 @@ exports.seed = function(knex, Promise) {
         {id: 72, ingredient_id: 19, name: "Eggs", amount: 4, unit: "eggs"},
         {id: 73, ingredient_id: 19, name: "Bacon", amount: 8, unit: "strips"},
         {id: 74, ingredient_id: 20, name: "Frozen Fruit", amount: 1, unit: "pound"},
-        {id: 75, ingredient_id: 20, name: "Orange Juice", amount: 1, unit: "cup"}
+        {id: 75, ingredient_id: 20, name: "Orange Juice", amount: 1, unit: "cup"},
+        {id: 76, ingredient_id: 21, name: "Chicken", amount: 1, unit: "whole"},
+        {id: 77, ingredient_id: 21, name: "Seasoning", amount: 1, unit: "cup"},
       ]);
     });
 };
