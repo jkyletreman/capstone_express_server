@@ -211,7 +211,7 @@ exports.seed = function(knex, Promise) {
           difficulty: "Easy",
           instructions:"These are instructions",
           summary: "Sometimes you need the whole chicken.",
-          img: "https://images-gmi-pmc.edge-generalmills.com/1549b0b2-dda3-4e42-9f3b-6a65b1ae7985.jpg"
+          img: "https://www.simplyrecipes.com/wp-content/uploads/2007/01/roast-chicken-carrots-sally-horiz-a-1800.jpg"
         }
       ]);
     });
