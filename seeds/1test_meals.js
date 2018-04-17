@@ -202,6 +202,16 @@ exports.seed = function(knex, Promise) {
           instructions: "These are instructions",
           summary: "When fruit just wont cut it.",
           img: "http://img1.cookinglight.timeinc.net/sites/default/files/styles/4_3_horizontal_-_1200x900/public/image/2017/05/main/pbj-smoothie-1707p35.jpg?itok=sGsix9g1"
+        },
+        {
+          id: 21,
+          name: "Whole Roasted Chicken",
+          time: "1 hour",
+          tags: "Chicken",
+          difficulty: "Easy",
+          instructions:"These are instructions",
+          summary: "Sometimes you need the whole chicken.",
+          img: "https://images-gmi-pmc.edge-generalmills.com/1549b0b2-dda3-4e42-9f3b-6a65b1ae7985.jpg"
         }
       ]);
     });
