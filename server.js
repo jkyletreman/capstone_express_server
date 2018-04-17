@@ -3,7 +3,7 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 
 const app = express();
-const PORT = process.env.PORT || 5050;
+const PORT = 5050;
 
 const {
   getIngredientsfromMeals,
@@ -47,6 +47,4 @@ app.use('/', (req, res) => {
   res.sendStatus(404);
 });
 
-app.listen(PORT, () => {
-  console.log('Ready to serve...');
-});
+app.listen(process.env.PORT || PORT , () => console.log(`Listening on http://localhost:${PORT}/`))
