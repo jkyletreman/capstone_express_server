@@ -1,6 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 
 const app = express();
 const PORT = 5050;
@@ -20,6 +21,7 @@ const NexmoNumber = '12035808413';
 app.use(morgan('tiny'));
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
+app.use(cors());
 
 app.get('/api/smallCards', (req, res) => {
   getSmallCardInfo(req).then(cards => {
