@@ -8,7 +8,8 @@ const PORT = 5050;
 
 const {
   getIngredientsfromMeals,
-  getSmallCardInfo
+  getSmallCardInfo,
+  getAllCardInfo
 } = require('./models/queries.js');
 
 const Nexmo = require('nexmo');
@@ -36,6 +37,12 @@ app.get('/api/ingredients', (req, res) => {
     res.send(ingredients)
   })
 });
+
+app.get("/api/AllCardInfo", (req, res) => {
+  getAllCardInfo(req).then(info => {
+    res.send(info)
+  })
+})
 
 app.post('/api/send', (req, res) => {
   // Send SMS
