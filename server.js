@@ -38,11 +38,11 @@ app.get('/api/ingredients', (req, res) => {
   })
 });
 
-app.get("/api/AllCardInfo", (req, res) => {
-  getAllCardInfo(req).then(info => {
-    res.send(info)
-  })
-})
+// app.get("/api/AllCardInfo", (req, res) => {
+//   getAllCardInfo(req).then(info => {
+//     res.send(info)
+//   })
+// })
 
 app.post('/api/send', (req, res) => {
   // Send SMS
